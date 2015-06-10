@@ -59,16 +59,19 @@
   <ItemGroup>
     <Content Include="bootstrap.min.css" />
     <Content Include="dots.js" />
-    <Content Include="HtmlPage1.html" />
+    <Content Include="index.html" />
     <Content Include="General.css" />
     <Content Include="LoadingCat.gif" />
+    <Content Include="Negative_Waves.gif" />
     <Content Include="Oddball.jpg" />
+    <Content Include="smoothscroll.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Properties\PublishProfiles\TestWebSite.pubxml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
