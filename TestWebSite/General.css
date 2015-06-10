@@ -1,5 +1,5 @@
 ﻿.big-section     { color:#FFF; padding-top:70px; }
-.row             { margin-bottom:100px; text-align:center; }
+.row             { text-align:center;}
 
 h1               { font-size:40px; padding-bottom:30px; padding-top:30px; text-align:center; }
 
@@ -7,13 +7,13 @@ h1               { font-size:40px; padding-bottom:30px; padding-top:30px; text-a
 #twitter         { background:#1CC1F7; }
 
 /* twitter rectangles =================================================== */
-#twitter-rectangle .tw-outside         { background:#0081b7; display:block; height:55px; position:relative; width:200px; align-self: center; border-radius: 25px; margin:auto; margin-top: 300px}
+#twitter-rectangle .tw-outside         { background:#0081b7; display:block; height:55px; position:relative; width:200px; align-self: center; border-radius: 25px; margin:auto; margin-top: 200px; margin-bottom: 200px;}
 
 #twitter-rectangle .tw-text, #twitter-rectangle .tw-click { display:block; height:100%; padding-top:15px; position:absolute; width:100%; 
     transition:0.3s ease all;
 }
-#twitter-rectangle .tw-text            { font-size:20px; font-weight:700; z-index:9999; } /* set font sizing and make sure the text is above the button using z-index */
-#twitter-rectangle .tw-click           { z-index:8888; }
+#twitter-rectangle .tw-text            { font-size:20px; font-weight:700; color: white} /* set font sizing and make sure the text is above the button using z-index */
+#twitter-rectangle .tw-click           { z-index:2; }
 
 /* twitter 1 ------------------------------------- */
 #tw-1                   { overflow:hidden;  } /* overflow hidden so nothing shows up outside of our container div */
@@ -22,6 +22,8 @@ h1               { font-size:40px; padding-bottom:30px; padding-top:30px; text-a
 /* on hover */
 #tw-1:hover .tw-text      { margin-top:100px; } /* pull our text down */
 #tw-1:hover .tw-click     { margin-top:0; } /* pull our button down to be in view */
+
+.twitter-follow-button { color: #ffffff}
 
 
 #loader {
@@ -42,7 +44,7 @@ h1               { font-size:40px; padding-bottom:30px; padding-top:30px; text-a
     width: 51%;
     height: 100%;
     background: #FFF;
-    z-index: 1000;
+    z-index: 9998;
 }
 
 #loader-wrapper .loader-section.section-left {
