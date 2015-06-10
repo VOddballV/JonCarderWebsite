@@ -54,3 +54,12 @@ h1               { font-size:40px; padding-bottom:30px; padding-top:30px; text-a
 #loader-wrapper .loader-section.section-right {
     right: 0;
 }
+
+#mydiv {
+
+}
+
+#mydiv img {
+    height: 100%;
+    width: 100%;
+}
