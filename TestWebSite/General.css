@@ -55,11 +55,18 @@ h1               { font-size:40px; padding-bottom:30px; padding-top:30px; text-a
     right: 0;
 }
 
-#mydiv {
-
-}
-
 #mydiv img {
     height: 100%;
     width: 100%;
+}
+
+#buttonMenu {
+    background-color: #0081b7s;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    width: 130px;
+}
+
+.buttonHolder{
+    margin: 0 auto;
 }
