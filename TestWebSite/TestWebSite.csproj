@@ -59,6 +59,7 @@
   <ItemGroup>
     <Content Include="bootstrap.min.css" />
     <Content Include="Content\Burning_Bridges_%28Kellys_Heroes_theme_song%29_-_Nightcore.mp3" />
+    <Content Include="Content\AngularApp.js" />
     <Content Include="Content\dots.js" />
     <Content Include="index.html" />
     <Content Include="General.css" />
@@ -66,13 +67,18 @@
     <Content Include="Content\Negative_Waves.gif" />
     <Content Include="Content\Oddball.jpg" />
     <Content Include="Content\smoothscroll.js" />
+    <Content Include="Scripts\angular-mocks.js" />
+    <Content Include="Scripts\angular.js" />
+    <Content Include="Scripts\angular.min.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="packages.config" />
     <None Include="Properties\PublishProfiles\TestWebSite.pubxml" />
+    <Content Include="Scripts\angular.min.js.map" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
